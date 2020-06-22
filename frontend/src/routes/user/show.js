@@ -15,7 +15,7 @@ class Show extends Component {
         'Content-Type': 'application/json',
       }
     };
-    axios.get('http://104.215.92.219:3000/users/' + email, {}, config)
+    axios.get('http://35.222.113.169:3000/users/' + email, {}, config)
     // axios.get('http://localhost:3000/users/' + email, {}, config)
       .then((response) => {
         console.log('response', response);

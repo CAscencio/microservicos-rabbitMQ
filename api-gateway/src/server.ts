@@ -28,7 +28,7 @@ const options:cors.CorsOptions = {
   allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "X-Access-Token"],
   credentials: true,
   methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
-  origin: 'http://104.215.92.219:3030',
+  origin: 'http://35.222.113.169:3030',
   // origin: 'http://localhost:3030',
   preflightContinue: false
 };
