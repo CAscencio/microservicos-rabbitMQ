@@ -3,7 +3,7 @@ const config:any  = {
         'service':'Gmail',
         'userEmail':'ascencio.luyo@gmail.com',
         'userPass':'DeejayCermixx14',
-        host:'104.215.92.219', //Estaba en localhost
+        host:'35.222.113.169', //Estaba en localhost
     },
     ports : 4003,
     rabbit:{
