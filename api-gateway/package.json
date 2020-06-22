@@ -50,6 +50,7 @@
     "errorhandler": "^1.4.3",
     "express": "^4.14.0",
     "express-session": "^1.14.2",
+    "form-data": "^3.0.0",
     "lodash": "^4.17.4",
     "morgan": "^1.9.0",
     "request": "^2.78.0"
@@ -66,7 +67,7 @@
     "@types/jquery": "^2.0.41",
     "@types/lodash": "^4.14.63",
     "@types/morgan": "^1.7.32",
-    "@types/node": "^7.0.12",
+    "@types/node": "^14.0.13",
     "@types/request": "0.0.45",
     "concurrently": "^3.4.0",
     "jest": "^19.0.2",
