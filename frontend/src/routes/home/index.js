@@ -44,7 +44,8 @@ Home.propTypes = {
 }
 
 Home.defaultProps = {
-  urlConnect: 'http://localhost',
+  urlConnect: 'http://104.215.92.219',
+  // urlConnect: 'http://localhost',
   portConnect: 8888
 };
 

@@ -14,7 +14,8 @@ export class userController extends abstractControl{
     }
 
     ping(req: Request, res :Response){
-        rq.get('http://localhost:4002/courses-user/ping',(err:any , response: any, body:any)=>{
+        rq.get('http://104.215.92.219:4002/courses-user/ping',(err:any , response: any, body:any)=>{
+        // rq.get('http://localhost:4002/courses-user/ping',(err:any , response: any, body:any)=>{
           if(err){ this.handleError(res)(err)}
             res.json({
                 status:'OK',

@@ -25,7 +25,8 @@ class Store extends Component {
         'Content-Type': 'application/json',
       }
     };
-    axios.get('http://localhost:3000/courses', {}, config)
+    axios.get('http://104.215.92.219:3000/courses', {}, config)
+    // axios.get('http://localhost:3000/courses', {}, config)
       .then((response) => {
         console.log('response', response);
         return response.data
@@ -46,7 +47,8 @@ class Store extends Component {
   }
   obtenerItemParent (DataUser) {
     console.log('obtenerItemParent', DataUser);
-    axios.post('http://localhost:3000/courses/buy',{
+    axios.post('http://104.215.92.219:3000/courses/buy',{
+    // axios.post('http://localhost:3000/courses/buy',{
       email: DataUser.email,
       idCourse: DataUser.idItem
     })
