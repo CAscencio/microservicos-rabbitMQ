@@ -9,7 +9,8 @@ const config:any  = {
         port: 3306
     },
     rabbit:{
-        host: 'amqp://admin:mypass@localhost'
+        host: 'amqp://admin:mypass@35.222.113.169'
+        // host: 'amqp://admin:mypass@localhost'
     }
 };
 
