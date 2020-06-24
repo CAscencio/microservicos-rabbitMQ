@@ -54,7 +54,7 @@ class Store extends Component {
     })
     .then(response => {
       console.log('response', response);
-      toast.info("Se realizo el link a tu correo, revisalo !");
+      toast.info("Se envio el link a tu correo, revisalo !");
 
     })
     .catch(error => {

@@ -37,8 +37,8 @@ export class CoursesController extends ParentRoutes{
                         if(bodyUser.new){
                             rabbitCon.sendToQueue('email',{
                                 email:user.email,
-                                subject: 'GRACIAS POR ELEGIRNOS', 
-                                text:'Ahora si ya podemos enviarle los libros que podrian interesar',
+                                subject: 'GRACIAS POR ELEGIRNOS 🤝', 
+                                text:'Ahora si ya podemos enviarle los libros que podrian interesar 📔',
                             });
                         }
                         rq({

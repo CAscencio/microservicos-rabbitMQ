@@ -22,7 +22,7 @@ class itemCard extends Component {
             <CardTitle>{this.props.title}</CardTitle>
             <CardSubtitle>{this.props.author}</CardSubtitle>
           </CardBody>
-          <img width="100%" src={this.props.pic} alt="Card  cap"/>
+          <img width="100%" height="70%" src={this.props.pic} alt="Card  cap"/>
           <CardBody>
             <CardText>{this.props.description}</CardText>  
             <Button outline color="primary" size='lg' block onClick={() => this.onClickBtn()} >Obtener</Button>
