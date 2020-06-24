@@ -6,7 +6,9 @@ services :
     environment:
         - RABBITMQ_DEFAULT_USER=admin
         - RABBITMQ_DEFAULT_PASS=mypass
+        - RABBITMQ_NODE_IP_ADDRESS=35.222.113.169
     ports:
+        - "15672:15672"
         - "5672:5672"   
   users:
     build: ./users-service
